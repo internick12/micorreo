@@ -22,7 +22,7 @@ router.post('/send-email', async(req, res) => {
         secure: false,
         auth: {
             user: 'gerencia@galosoft.com',
-            pass: 'Mibruno10'
+            pass: 'Mibruno10@'
         },
         tls: {
             rejectUnauthorized: false
